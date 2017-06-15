@@ -1,4 +1,4 @@
-package day03;
+﻿package day03;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -11,6 +11,7 @@ public class FileDemo1 {
 				return new File(dir,name).isFile() && name.endsWith(".avi");
 			}
 		});
+int u=0;
 		for(File file:fs){
 			System.out.println(file);
 		}
